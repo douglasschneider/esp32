@@ -1,0 +1,95 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="]9,ql0qSh*X(8Ou$8!4]" x="-430" y="-630">
+    <mutation component_type="Form" is_generic="false" instance_name="Screen1" event_name="MenuInitialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Screen1</field>
+    <statement name="DO">
+      <block type="component_set_get" id="bYhb8%yBP11Pf/)7Ls#Y">
+        <mutation component_type="WebViewer" set_or_get="set" property_name="HomeUrl" is_generic="false" instance_name="webview"></mutation>
+        <field name="COMPONENT_SELECTOR">webview</field>
+        <field name="PROP">HomeUrl</field>
+        <value name="VALUE">
+          <block type="component_set_get" id="7fk;[YK#45pozQv4ctkw">
+            <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_servidor"></mutation>
+            <field name="COMPONENT_SELECTOR">txt_servidor</field>
+            <field name="PROP">Text</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="7Ck-A^R1_*$?hEIG2u_Z" x="-430" y="-550">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_ligar" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_ligar</field>
+    <statement name="DO">
+      <block type="component_set_get" id="*OauZaNIzG|jRy{PqGb`">
+        <mutation component_type="WebViewer" set_or_get="set" property_name="HomeUrl" is_generic="false" instance_name="webview"></mutation>
+        <field name="COMPONENT_SELECTOR">webview</field>
+        <field name="PROP">HomeUrl</field>
+        <value name="VALUE">
+          <block type="text_join" id="a.Z^k/N-2P*z}$JH|MX`">
+            <mutation items="2"></mutation>
+            <value name="ADD0">
+              <block type="component_set_get" id="$:)g$`1h2y+sSI$Sl./Q">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_servidor"></mutation>
+                <field name="COMPONENT_SELECTOR">txt_servidor</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="text" id="@[Z$ZT~6D6GTVTDK9E1z">
+                <field name="TEXT">/ledon</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="CZQ?F93ON{dVWwOg5h]Q" x="-430" y="-430">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_desligar" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_desligar</field>
+    <statement name="DO">
+      <block type="component_set_get" id="c@4z~xC6B~Db6uX]|ZO0">
+        <mutation component_type="WebViewer" set_or_get="set" property_name="HomeUrl" is_generic="false" instance_name="webview"></mutation>
+        <field name="COMPONENT_SELECTOR">webview</field>
+        <field name="PROP">HomeUrl</field>
+        <value name="VALUE">
+          <block type="text_join" id="X|20(%;U+HeaT-+8N#~S">
+            <mutation items="2"></mutation>
+            <value name="ADD0">
+              <block type="component_set_get" id="ni~T#X2qLpP:B$])wMJ,">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_servidor"></mutation>
+                <field name="COMPONENT_SELECTOR">txt_servidor</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="text" id="2lr*C7VKG~i.!fhCf4ZQ">
+                <field name="TEXT">/ledoff</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="4,M,q5]}-T#s;Z$i{uli" x="-430" y="-310">
+    <mutation component_type="Button" is_generic="false" instance_name="btn_ok" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btn_ok</field>
+    <statement name="DO">
+      <block type="component_set_get" id="6@b=dvJS2KB(]j5t!KO]">
+        <mutation component_type="WebViewer" set_or_get="set" property_name="HomeUrl" is_generic="false" instance_name="webview"></mutation>
+        <field name="COMPONENT_SELECTOR">webview</field>
+        <field name="PROP">HomeUrl</field>
+        <value name="VALUE">
+          <block type="component_set_get" id=")fBAHE-ldQV}!@Vr(SIO">
+            <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="txt_servidor"></mutation>
+            <field name="COMPONENT_SELECTOR">txt_servidor</field>
+            <field name="PROP">Text</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>
